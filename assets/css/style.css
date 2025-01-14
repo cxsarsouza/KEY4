@@ -3464,7 +3464,7 @@ hero-style3
 
 .on-h5{
   padding-left: 20px;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .on-p{
@@ -3479,7 +3479,9 @@ hero-style3
 
 .info-h2{
   color: #fff;
-  font-size: 33px;
+  font-size: 32px;
+  padding-bottom: 15px;
+  margin-top: 0;
 }
 
 .p-info{
@@ -3509,6 +3511,67 @@ hero-style3
     width: 16.66666667%;
 }
 
+.fsBody{
+  text-align: center !important;
+}
+
+.lbLpfT{
+  background-color: #fff !important;
+}
+
+.esUKYn{
+  border-radius: 5px !important;
+  background-color: #f3f3f3 !important;
+  border: none !important;
+
+}
+
+.dGacxM{
+  border-radius: 5px !important;
+  background-color: #f3f3f3 !important;
+  border: none !important;
+}
+
+.gueQA{
+  color: rgb(167 167 167) !important;
+}
+
+.bgSFvA{
+  padding: 16px 60px !important;
+  border-radius: 5px !important;
+  background-color:#00af73 !important;
+}
+
+.gqkVov{
+  margin-top: calc(7px) !important;
+}
+
+.ldHEUC label{
+  flex-direction: column-reverse !important;
+}
+
+.PSYyM {
+  display: flex;
+  flex-flow: row !important;
+  justify-content: space-evenly !important;
+}
+
+.fSfNdA{
+  text-align: center !important;
+  color: rgb(81 81 81) !important;
+  margin-top: 20px !important;
+}
+
+.etDirx {
+  color: rgb(0 175 115) !important;
+}
+
+.jAZFMr::before{
+  background-color: #f3f3f3 !important;
+  border: 1px solid #b6b6b6;
+  border-radius: 2px;
+}
+
 @media (max-width: 1300px) {
   .justify{
     flex-direction: column;
@@ -3518,6 +3581,8 @@ hero-style3
 @media (max-width: 991px) {
   .row-parceiros{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
   .col-parceiros{
     min-width: 150px;
