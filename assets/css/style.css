@@ -604,7 +604,7 @@ img {
     color: #444;
     position: relative;
     display: block;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 0;
     display: inline-block;
 }
@@ -664,8 +664,7 @@ img {
     font-size: 0.875rem;
     height: 45px;
     line-height: 45px;
-    padding: 0 18px;
-    border-radius: 45px;
+    padding: 0 40px;
   }
 }
 
@@ -1210,7 +1209,7 @@ img {
     width: 100%;
   }
   .site-header .navbar-header button {
-    background-color: #659a72;
+    background-color: #00af73;
     width: 40px;
     height: 35px;
     border: 0;
@@ -3432,7 +3431,24 @@ hero-style3
   width: 500px;
 }
 
+.btn-main{
+  display: flex;
+}
+
 .flex-text{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.flex-text-main{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.flex-text-on{
   display: flex;
   justify-content: left;
   align-items: center;
@@ -3576,6 +3592,23 @@ hero-style3
   .justify{
     flex-direction: column;
   }
+  .h2-main{
+    text-align: center;
+  }
+  .details{
+    display: flex;
+    justify-content: center;
+  }
+  .flex-text-main{
+    justify-content: center;
+  }
+  .flex-text{
+    flex-direction: column;
+  }
+  .btn-main{
+    justify-content: center;
+  }
+  
 }
 
 @media (max-width: 991px) {
@@ -3593,4 +3626,36 @@ hero-style3
   .flex-footer{
     flex-direction: column;
 }
+}
+
+
+@media (max-width: 600px) { 
+  .h2-main{
+    font-size: 32px;
+  }
+  .col-md-6{
+    padding: 0 !important;
+  }
+  .main-svg {
+    padding: 15px 0px;
+  }
+  .on-h5 {
+    padding-left: 20px;
+    font-size: 24px;
+  }
+  .btn-main{
+    margin-bottom: 25px;
+  }
+  .on-main-img {
+    margin-bottom: 35px;
+  }
+  .p-info{
+    font-size: 18px;
+  }
+  .info-h2{
+    font-size: 30px;
+  }
+  .section-title h2{
+    
+  }
 }
